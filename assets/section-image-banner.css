@@ -359,6 +359,10 @@
 
 .banner__box > * + .banner__text {
   margin-top: 1.5rem;
+  color: black;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 750px) {
@@ -397,6 +401,9 @@
 
 .banner__heading {
   margin-bottom: 0;
+  color: black;
+  font-size: 75px;
+  letter-spacing: 1px;
 }
 
 .banner__box .banner__heading + * {
@@ -435,4 +442,23 @@
 
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
+}
+
+.banner__buttons {
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.banner__buttons a {
+  background: none;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.banner__buttons a::after {
+  content: none;
 }
