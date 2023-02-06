@@ -16,6 +16,21 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .rich-text__heading {
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+
+  .rich-text__text {
+    font-size: 14px;
+    width: 550px;
+    margin: 15px auto;
+    margin-bottom: 30px;
+    color: #333333;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
