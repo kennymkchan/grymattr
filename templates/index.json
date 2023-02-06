@@ -89,13 +89,13 @@
         "template--15557007573039__3a54e41e-20f4-42cc-bb37-7811853c4ef6-167569040862da981d-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-sellers"
+            "collection": "shop-readers"
           }
         },
         "template--15557007573039__3a54e41e-20f4-42cc-bb37-7811853c4ef6-167569040862da981d-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "classics-collection"
+            "collection": "shop-lifestyle"
           }
         }
       },
