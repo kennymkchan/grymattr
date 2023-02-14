@@ -146,7 +146,7 @@
     "be6b4bc7-6d13-4ead-afb5-04bc37cb6b2f": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-10-18_at_12.41_1.png",
+        "image": "shopify:\/\/shop_images\/animated-banner2-min.gif",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": true,
