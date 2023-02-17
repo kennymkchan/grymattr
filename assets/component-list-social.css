@@ -18,7 +18,10 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.3rem;
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
   color: rgb(var(--color-foreground));
 }
 
