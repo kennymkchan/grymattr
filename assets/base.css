@@ -2964,3 +2964,8 @@ details-disclosure > details {
 .display--none {
   display: none !important;
 }
+
+#shopify-section-template--15557007573039__1676646542fb81c2f0 .page-width {
+  max-width: 1440px;
+  padding: 0;
+}
