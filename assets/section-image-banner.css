@@ -416,6 +416,7 @@
   gap: 1rem;
   max-width: 45rem;
   word-break: break-word;
+  z-index: 1000 !important;
 }
 
 @media screen and (max-width: 749px) {
