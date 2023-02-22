@@ -6,7 +6,7 @@
         "template--15557007573039__e6627cc4-9726-42ef-abfc-c24c4991b215-1675689935e624acfc-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_1.png",
+            "image": "shopify:\/\/shop_images\/grymattr-new.png",
             "heading": "Winter Collection",
             "heading_size": "h0",
             "subheading": "Blue Light Readers",
@@ -20,34 +20,16 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--15557007573039__e6627cc4-9726-42ef-abfc-c24c4991b215-1675689935e624acfc-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "template--15557007573039__e6627cc4-9726-42ef-abfc-c24c4991b215-1675689935e624acfc-0",
-        "template--15557007573039__e6627cc4-9726-42ef-abfc-c24c4991b215-1675689935e624acfc-1"
+        "template--15557007573039__e6627cc4-9726-42ef-abfc-c24c4991b215-1675689935e624acfc-0"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
@@ -66,7 +48,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Designed as a tribute to architects' work, Cinqpoints is a French publishing company. We design and produce stationery, objects and games for architecture lovers and creative minds.<\/p>"
+            "text": "<p>designed as a tribute to architects' work, Cinqpoints is a French publishing company. We design and produce stationery, objects and games for architecture lovers and creative minds.<\/p>"
           }
         }
       },
@@ -106,7 +88,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
@@ -192,7 +174,7 @@
         "custom_liquid": "<div class=\"testimonial--customer\">\n  <div class=\"testimonial--wrapper\">\n    <div class=\"testimonial--image-container\">\n      <img src=\"{{ 'testimonial-1.png' | asset_url }}\" class=\"testimonial--image\" \/>\n    <\/div>\n    <div class=\"testimonial--quote-container\">\n      <div class=\"testimonial--heading-container\">\n        <h2 class=\"testimonial--heading\">\n          <span class=\"testimonial--span\">Customer Reviews<\/span>\n        <\/h2>\n      <\/div>\n      <div>\n        <div class=\"testimonial--stars\">\n          <svg fill=\"none\" height=\"18\" viewBox=\"0 0 19 18\" width=\"19\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path clip-rule=\"evenodd\" d=\"m9.27385.00000023c.4434-.00129144 2.46125 5.41305977 2.82095 5.67263977.3594.25958 6.1339.47073 6.2721.89217.1384.42144-4.3875 4.01359-4.5233 4.43569-.1358.422 1.4477 5.9791 1.0898 6.2408-.358.2618-5.17289-2.9324-5.6165-2.9311-.44339.0013-5.23893 3.2245-5.59859 2.9649-.35967-.2596 1.19049-5.8259 1.05209-6.2473s-4.6857655-3.98624-4.549949-4.40832c.135816-.42209 5.908539-.66811 6.266699-.92984.35816-.26194 2.34331-5.68834833 2.7867-5.68963977z\" fill=\"#907649\" fill-rule=\"evenodd\"\/><\/svg>\n          <svg fill=\"none\" height=\"18\" viewBox=\"0 0 19 18\" width=\"19\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path clip-rule=\"evenodd\" d=\"m9.27385.00000023c.4434-.00129144 2.46125 5.41305977 2.82095 5.67263977.3594.25958 6.1339.47073 6.2721.89217.1384.42144-4.3875 4.01359-4.5233 4.43569-.1358.422 1.4477 5.9791 1.0898 6.2408-.358.2618-5.17289-2.9324-5.6165-2.9311-.44339.0013-5.23893 3.2245-5.59859 2.9649-.35967-.2596 1.19049-5.8259 1.05209-6.2473s-4.6857655-3.98624-4.549949-4.40832c.135816-.42209 5.908539-.66811 6.266699-.92984.35816-.26194 2.34331-5.68834833 2.7867-5.68963977z\" fill=\"#907649\" fill-rule=\"evenodd\"\/><\/svg>\n          <svg fill=\"none\" height=\"18\" viewBox=\"0 0 19 18\" width=\"19\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path clip-rule=\"evenodd\" d=\"m9.27385.00000023c.4434-.00129144 2.46125 5.41305977 2.82095 5.67263977.3594.25958 6.1339.47073 6.2721.89217.1384.42144-4.3875 4.01359-4.5233 4.43569-.1358.422 1.4477 5.9791 1.0898 6.2408-.358.2618-5.17289-2.9324-5.6165-2.9311-.44339.0013-5.23893 3.2245-5.59859 2.9649-.35967-.2596 1.19049-5.8259 1.05209-6.2473s-4.6857655-3.98624-4.549949-4.40832c.135816-.42209 5.908539-.66811 6.266699-.92984.35816-.26194 2.34331-5.68834833 2.7867-5.68963977z\" fill=\"#907649\" fill-rule=\"evenodd\"\/><\/svg>\n          <svg fill=\"none\" height=\"18\" viewBox=\"0 0 19 18\" width=\"19\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path clip-rule=\"evenodd\" d=\"m9.27385.00000023c.4434-.00129144 2.46125 5.41305977 2.82095 5.67263977.3594.25958 6.1339.47073 6.2721.89217.1384.42144-4.3875 4.01359-4.5233 4.43569-.1358.422 1.4477 5.9791 1.0898 6.2408-.358.2618-5.17289-2.9324-5.6165-2.9311-.44339.0013-5.23893 3.2245-5.59859 2.9649-.35967-.2596 1.19049-5.8259 1.05209-6.2473s-4.6857655-3.98624-4.549949-4.40832c.135816-.42209 5.908539-.66811 6.266699-.92984.35816-.26194 2.34331-5.68834833 2.7867-5.68963977z\" fill=\"#907649\" fill-rule=\"evenodd\"\/><\/svg>\n          <svg fill=\"none\" height=\"18\" viewBox=\"0 0 19 18\" width=\"19\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path clip-rule=\"evenodd\" d=\"m9.27385.00000023c.4434-.00129144 2.46125 5.41305977 2.82095 5.67263977.3594.25958 6.1339.47073 6.2721.89217.1384.42144-4.3875 4.01359-4.5233 4.43569-.1358.422 1.4477 5.9791 1.0898 6.2408-.358.2618-5.17289-2.9324-5.6165-2.9311-.44339.0013-5.23893 3.2245-5.59859 2.9649-.35967-.2596 1.19049-5.8259 1.05209-6.2473s-4.6857655-3.98624-4.549949-4.40832c.135816-.42209 5.908539-.66811 6.266699-.92984.35816-.26194 2.34331-5.68834833 2.7867-5.68963977z\" fill=\"#907649\" fill-rule=\"evenodd\"\/><\/svg>\n        <\/div>\n        <div class=\"testimonial--quote\">\n          “Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia”.\n        <\/div>\n        <p class=\"testimonial--attribute\">\n          margareth\n        <\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n{% style %}\n  .testimonial--span {\n    position: relative;\n  }\n  .testimonial--span:after {\n    content: '';\n    width: 150px;\n    border-bottom: solid 1px black;\n    position: absolute;\n    left: 110%;\n    top: 50%;\n    z-index: 1;\n  }\n  .testimonial--customer {\n    max-width: 1440px;\n     margin: 0 auto;\n  }\n  .testimonial--wrapper {\n    display: flex;\n  }\n  .testimonial--image-container {\n    width: 50%;\n  }\n  .testimonial--image {\n    width: 100%;\n    display: block;\n  }\n  .testimonial--quote-container {\n    width: 50%;\n    background-color: #F8F7F5;\n    padding: 75px;\n  }\n  .testimonial--heading {\n    font-size: 16px;\n    color: black;\n    text-transform: uppercase;\n    margin-bottom: 125px;\n  }\n  .testimonial--star {\n    display: flex;\n    margin-bottom: 20px;\n  }\n  .testimonial--quote {\n    color: black;\n    font-size: 16px;\n    margin-bottom: 30px;\n  }\n  .testimonial--attribute {\n    text-transform: uppercase;\n    font-size: 14px;\n    letter-spacing: 3px;\n    color: black;\n  }\n{% endstyle %}",
         "color_scheme": "background-1",
         "padding_top": 80,
-        "padding_bottom": 84
+        "padding_bottom": 100
       }
     },
     "5c9c234b-1c72-485c-aac5-f47aed13b96d": {
@@ -214,7 +196,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 24
       }
     },
